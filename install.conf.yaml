@@ -1,0 +1,15 @@
+- defaults:
+    link:
+        relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.zshrc: zshrc
+    ~/.zshenv: zshenv
+
+- create:
+    - ~/src
+
+- shell:
+    - git submodule update --init --recursive
