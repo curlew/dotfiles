@@ -7,7 +7,7 @@ setopt prompt_subst
 PROMPT="%B%F{blue}%~%f%(?. . %F{red}%?%f )%F{cyan}%#%f%b "
 RPROMPT="%F{242}\$vcs_info_msg_0_ %B%!%b%f"
 
-test -r ~/.dircolors && eval $(dircolors -b ~/.dircolors)
+[ -r "$HOME/.dircolors" ] && eval $(dircolors -b $HOME/.dircolors)
 alias ls="ls -F --color=auto"
 alias grep="grep --color=auto"
 alias fgrep="fgrep --color=auto"
