@@ -14,6 +14,8 @@
     ~/.config/nvim/ginit.vim:
         path: nvim/ginit.vim
         create: true
+    ~/.config/Code/User/settings.json:
+        path: vscode.json
 
 - create:
     - ~/src
