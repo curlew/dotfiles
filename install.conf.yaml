@@ -8,6 +8,8 @@
     ~/.zshrc: zshrc
     ~/.zshenv: zshenv
     ~/.dircolors: dircolors
+    ~/.gitconfig: gitconfig
+    ~/.gitexclude: gitexclude
     ~/.config/nvim/init.vim:
         path: nvim/init.vim
         create: true

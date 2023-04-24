@@ -1,0 +1,10 @@
+[user]
+	name = curlew
+	email = git@curlew.is
+	signingKey = 9BE25AA1
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[core]
+	excludesfile = ~/.gitexclude
