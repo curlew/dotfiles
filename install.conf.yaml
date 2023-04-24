@@ -8,6 +8,12 @@
     ~/.zshrc: zshrc
     ~/.zshenv: zshenv
     ~/.dircolors: dircolors
+    ~/.config/nvim/init.vim:
+        path: nvim/init.vim
+        create: true
+    ~/.config/nvim/ginit.vim:
+        path: nvim/ginit.vim
+        create: true
 
 - create:
     - ~/src
